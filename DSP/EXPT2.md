@@ -112,7 +112,7 @@ int detect(float* a, int* len)
 `x[n] = {30, 12, 20 6 2}`
 
 a. **Output**\
-![Q1](https://github.com/srikanth-iyengar/SPIT-ocw/tree/main/DSP/q1.png)\
+![Q1](https://raw.githubusercontent.com/srikanth-iyengar/SPIT-ocw/main/DSP/q1.png)\
 b. Since `y[n] = y[-n]`, That means, te autocorrelation output signal `y[n]` is an EVEN signal.\
 c. Energy of signal = 30^2 + 12^2 + 20^2 + 6^2 + 2^2 = 1484.\
 d. At n=0, y has maximum value which is equal to 1484.\
@@ -124,7 +124,7 @@ Solution:\
 `x[n-1] = {0, 30, 12, 20, 6, 2}`\
 
 
-![Q2](https://github.com/srikanth-iyengar/SPIT-ocw/tree/main/DSP/q2.png)
+![Q2](https://raw.githubusercontent.com/srikanth-iyengar/SPIT-ocw/main/DSP/q2.png)
 
 **We see that there is no change in the output if we right shift the input signal by 1 i.e. delayed signal**.\
 
@@ -142,7 +142,7 @@ Give your conclusion.
  Solution:\
 `x[n] = {0, 30, 12, 20, 6, 2}`\
 `x[n-1] = {30, 12, 20, 6, 2, 0}`\
-![Q3](https://github.com/srikanth-iyengar/SPIT-ocw/tree/main/DSP/q3.png)\
+![Q3](https://raw.githubusercontent.com/srikanth-iyengar/SPIT-ocw/main/DSP/q3.png)\
 Analysis:\
 **We notice that there is no change in the output signal but the output signal is also left shifted by 1.**
 ## Conclusion:
