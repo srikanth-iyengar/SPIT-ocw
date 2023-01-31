@@ -5,7 +5,7 @@
 - **Batch**   : 7                      
 - **Branch**  : IT                     
 
-## Case Study 
+## Case Study: NFL (National Football League) case studies
 
 The 5 V's of big data are widely used to describe the characteristics of big data. In the context of NFL (National Football League) case studies, the 5 V's are:
 
