@@ -102,19 +102,41 @@ int detect(float* a, int* len)
 
 ## Q1)
 - Problem Definition:
-a) Find auto correlation of input signal and find the significance of value of output signal at n = 0. Let y[n] = x[n] O x[n]
-b) Classify the resultant signal( Even / Odd ).
-c) Calculate the energy of the signal.
-d) What is the significance of the value of y[0]?
+1. Find auto correlation of input signal and find the significance of value of output signal at n = 0. Let y[n] = x[n] O x[n]
+2.  Classify the resultant signal( Even / Odd ).
+3.  Calculate the energy of the signal.
+4. What is the significance of the value of y[0]?
 - Solution:
-x[n] = {30, 12, 20 6 2}
+`x[n] = {30, 12, 20 6 2}`
 
-- **Output**
+a. **Output**
 ![Q1](./q1.png)
+b. Since `y[n] = y[-n]`, That means, te autocorrelation output signal `y[n]` is an EVEN signal.
+c. Energy of signal = 30^2 + 12^2 + 20^2 + 6^2 + 2^2 = 1484.
+d. At n=0, y has maximum value which is equal to 1484.
 
 ## Q2)
 - Problem Definition: Compare the resultant signal p[n] with y[n]. Give your conclusion.
 Solution:
 `x[n] = {0, 30, 12, 20, 6, 2}`
 `x[n-1] = {0, 30, 12, 20, 6, 2}`
+![Q2](./q2.png)
 
+**We see that there is no change in the output if we right shift the input signal by 1 i.e. delayed signal**.
+
+## Q3)
+- Problem Definition:
+```Find cross correlation of input signal and delayed  input signal
+
+    q[n] = x[n]  0   x[n-1].
+
+    Compare the resultant signal q[n] with p[n] and y[n]                         
+
+    Give your conclusion.
+ ```
+ Solution:
+`x[n] = {0, 30, 12, 20, 6, 2}`
+`x[n-1] = {30, 12, 20, 6, 2, 0}`
+![Q3](./q3.png)
+Analysis:
+**We notice that there is no change in the output signal but the output signal is also left shifted by 1.**
