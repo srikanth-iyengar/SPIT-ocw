@@ -1,7 +1,9 @@
 # Experiment No 2
 - Name: Srikanth Kannan Iyengar
 - UID: 2020400062
-- 
+- Batch: 7
+- Branch: IT
+- Subject: Foundation Of Signal Processing
 
 ## Aim: The aim of this experiment is To study mathematical operation  Correlation and measure degree of similarity between two signals.
 
