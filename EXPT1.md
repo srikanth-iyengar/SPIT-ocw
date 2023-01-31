@@ -1,9 +1,9 @@
 # Experiment No 1
-| **Name** | Srikanth Kannan Iyengar|
-| **UID**  | 2020400062             |
-| **Subject** | BDA |
-| **Batch** | 7 |
-| **Branch** | IT |
+| **Name**    | Srikanth Kannan Iyengar|
+| **UID**     | 2020400062             |
+| **Subject** | BDA                    |
+| **Batch**   | 7                      |
+| **Branch**  | IT                     |
 
 ## Case Study 
 
