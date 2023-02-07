@@ -40,8 +40,8 @@ To study open source UX tools (Justinmind Prototype, Pidoco, Marvel Prototype, F
 
 ## Screenshot
 
-| | | |
-| -- | -- | -- |
+| | |
+| -- | -- |
 | ![Login](./login.png) | ![dashboard](./dashboard.png) | 
 | ![transcation](./transactions.png) | ![settings](./settings.png) |
 | ![marksheet](./Marksheet.png) | ![](./checkout.png) 
