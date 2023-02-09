@@ -320,12 +320,12 @@ BEGIN
 END;$$
 ```
 ### **Inserting 4 records and it gets automatically added to the respective table**
+![](./algo_1.png)
 ![](./algo_2.png)
-![](./algo_2.png)
-![](./algo_2.png)
-![](./algo_2.png)
-![](./algo_2.png)
-![](./algo_2.png)
+![](./algo_3.png)
+![](./algo_4.png)
+![](./algo_5.png)
+![](./algo_6.png)
 
 ## Conclusion
 Learned how to design a distributed database by applying the concept of horizontal fragmentation in PostgreSQL.
