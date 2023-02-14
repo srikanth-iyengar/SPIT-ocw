@@ -47,6 +47,18 @@ Give your conclusion.
 Analysis:\
 **We notice that there is no change in the output signal but the output signal is also left shifted by 1.**
 
+## Q4)
+- Problem Definition:
+Finding x[n] O a*x[n-2]
+Solution:
+x[n] = {30, 12, 20, 6, 2}
+
+x[n-2] = {0, 0, 30, 12, 20, 6, 2}
+
+considering a = 2
+
+2*x[n-2] = [0, 0, 60, 24, 40, 12, 4}
+
 ## Part B
 ### Aim: To make a program which is able to identify a person’s voice and phrases using correlation. (Voice password program)
 
