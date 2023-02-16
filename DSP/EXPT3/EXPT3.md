@@ -1,4 +1,4 @@
-# Experiment No 3
+# Experiment No 2
 - Name: Srikanth Kannan Iyengar
 - UID: 2020400062
 - Batch: 7
